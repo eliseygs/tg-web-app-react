@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { useTelegram } from "../../hooks/useTelegram";
 import './Form.css'
 
@@ -54,7 +54,7 @@ const Form = () => {
 
             <select value={subject} onChange={onChangeSubject} className={'select'}>
                 <option value={'physical'}>fiz face</option>
-                <option value={'legal'}>fiz face</option>
+                <option value={'legal'}>legal</option>
             </select>
 
         </div>
